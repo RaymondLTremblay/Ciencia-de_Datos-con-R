@@ -1,4 +1,4 @@
-# Curso de Biometría: BIOL4026
+# Curso de Ciencia de Datos con R: BIOL4026
 Este sitio es una guia para el curso de Ciencia de Datos con R, BIOL4026 en la Universidad de Puerto Rico en Humacao.  El objetivo de este sitio es presentar una organización simple y básica para la munipulación de datos para analisis y vizualización. 
 
 El presente curso tiene como objetivo es integrar componente de visualización de datos, manipulación de datos y una introducción a estadistica intermedia con R. 
