@@ -1,0 +1,32 @@
+﻿Semana,Tópico,Asignación de Lectura website,Libro,Tareas
+Semana 1,"R y Rstudio, El ambiente de trabajo",Instalar R y Rstudio,Netflix video,
+,"RStudio y RMarkdown, knit",Rmarkdown,Netflix video,
+Semana 2,Organizando los datos en R,Codigos Básicos en R y R Básico #2,Netflix video,Asign. 1: Ejerc_2_R4DS; Construir tu primer documento html.  Fecha de entrega el 24 de agosto 11:59pm
+,Diseño experimental y Tipos de datos,T1 Introducción a la Estadistica,Cap. 1 y Cap. 2: IBS,
+Semana 3,Población y muestreo,"T1a, Población y muestreo",Cap. 1 IBS,
+,Inferencias y hipótesis,"T1b, Inferencias y hipótesis","Cap. 6, IBS",Prueba corta hasta T1a
+Semana 4,Medidas de tendencias Central,T3,"Cap 4, IBS",
+,Medida de Disperción,T4,"Cap 4, IBS",
+,Explorando los datos con gráficos,T5 ,----,
+Semana 5,Los supuestos de las pruebas parametricas,T6,,
+,,T6,,Prueba corta T1b a T6
+Semana 6,Pruebas de Bondad de ajuste,T7,"Cap. 7, IBS",
+,,T7,"Cap. 7, IBS",
+Semana 7,,,,Examen
+,Historia breve de la estadistica cuantitativa,T2,,"Asign. 2: T7, en casa"
+Semana 8,La distribución normal,T8,"Cap. 8, IBS",
+,Prueba de t de una muestra,T9,"Cap. 9, IBS",
+Semana 9,Prueba de t pareados,T9,"Cap. 9, IBS",
+,,,,Asign 3: T9 (en la hora de la clase)
+Semana 10,Prueba de t no pareados,T10,"Cap. 10, IBS",
+,,,,
+Semana 11,ANOVA,T11,"Cap. 11, IBS",
+,,,,
+Semana 12,,,,"Asign 4: ANOVA, en casa"
+,Correlación y Covarianza,T13,"Cap. 13, IBS",
+Semana 13,,,,
+,Regresión Lineal,T14,"Cap. 14, IBS",
+Semana 14,Regresión logística,T14a,------,
+,,,,Asign 5: T13 (en casa)
+Semana 15,Selección de Pruebas corectas,T15,"Cap. 15, IBS",
+,,,,Asign 6: T14 y T14a (en casa)
