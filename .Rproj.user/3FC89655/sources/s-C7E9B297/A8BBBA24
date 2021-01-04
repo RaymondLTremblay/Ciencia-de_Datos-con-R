@@ -3,7 +3,7 @@
     "path": "~/Google Drive/GitHub_Google_Drive/GitHub/Ciencia-de_Datos-con-R/Codigos_basicos_en_R.Rmd",
     "project_path": "Codigos_basicos_en_R.Rmd",
     "type": "r_markdown",
-    "hash": "772954051",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1609770557149.0,
@@ -12,8 +12,8 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "28,3",
-        "scrollLine": "13"
+        "cursorPosition": "13,34",
+        "scrollLine": "5"
     },
     "folds": "",
     "lastKnownWriteTime": 1609770832,

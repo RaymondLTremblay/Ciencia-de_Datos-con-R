@@ -771,8 +771,8 @@ div.tocify {
 <pre><code>##  [1] 10  9  8  7  6  5  4  3  2  1</code></pre>
 <div class="sourceCode" id="cb122"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb122-1"><a href="#cb122-1"></a>Distancia_del_trabajo=<span class="kw">rnorm</span>(<span class="dv">10</span>, <span class="dv">100</span>, <span class="dv">10</span>)</span>
 <span id="cb122-2"><a href="#cb122-2"></a>Distancia_del_trabajo</span></code></pre></div>
-<pre><code>##  [1]  94.11206  98.00676 110.03171  96.10824 114.63301 105.73005  88.70858
-##  [8] 107.51571  99.35704 104.78974</code></pre>
+<pre><code>##  [1] 114.15848 101.73099  88.35317 105.99355  93.17781 107.74723 100.84100
+##  [8] 117.07007 102.75412 108.23826</code></pre>
 <div class="sourceCode" id="cb124"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb124-1"><a href="#cb124-1"></a>Ciudad=<span class="kw">c</span>(<span class="st">&quot;Fajardo&quot;</span>, <span class="st">&quot;Carolina&quot;</span>, <span class="st">&quot;Luquillo&quot;</span>,<span class="st">&quot;Gurabo&quot;</span>, <span class="st">&quot;Rio_Grande&quot;</span>, <span class="st">&quot;Ceiba&quot;</span>,<span class="st">&quot;Las_Piedras&quot;</span>, <span class="st">&quot;Caguas&quot;</span>,<span class="st">&quot;Maunabo&quot;</span>, <span class="st">&quot;Sturgeon_Falls&quot;</span>)</span>
 <span id="cb124-2"><a href="#cb124-2"></a>Ciudad</span></code></pre></div>
 <pre><code>##  [1] &quot;Fajardo&quot;        &quot;Carolina&quot;       &quot;Luquillo&quot;       &quot;Gurabo&quot;        
@@ -781,16 +781,16 @@ div.tocify {
 <div class="sourceCode" id="cb126"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb126-1"><a href="#cb126-1"></a>misDatos=<span class="kw">data.frame</span>(Edad,Distancia_del_trabajo,Ciudad)  <span class="co"># La función de unir las listas en un data frame</span></span>
 <span id="cb126-2"><a href="#cb126-2"></a>misDatos</span></code></pre></div>
 <pre><code>##    Edad Distancia_del_trabajo         Ciudad
-## 1    10              94.11206        Fajardo
-## 2     9              98.00676       Carolina
-## 3     8             110.03171       Luquillo
-## 4     7              96.10824         Gurabo
-## 5     6             114.63301     Rio_Grande
-## 6     5             105.73005          Ceiba
-## 7     4              88.70858    Las_Piedras
-## 8     3             107.51571         Caguas
-## 9     2              99.35704        Maunabo
-## 10    1             104.78974 Sturgeon_Falls</code></pre>
+## 1    10             114.15848        Fajardo
+## 2     9             101.73099       Carolina
+## 3     8              88.35317       Luquillo
+## 4     7             105.99355         Gurabo
+## 5     6              93.17781     Rio_Grande
+## 6     5             107.74723          Ceiba
+## 7     4             100.84100    Las_Piedras
+## 8     3             117.07007         Caguas
+## 9     2             102.75412        Maunabo
+## 10    1             108.23826 Sturgeon_Falls</code></pre>
 </div>
 <div id="funciones-comunes" class="section level1">
 <h1>Funciones comunes</h1>
@@ -808,30 +808,30 @@ div.tocify {
 <pre><code>##  [1] &quot;1&quot;  &quot;2&quot;  &quot;3&quot;  &quot;4&quot;  &quot;5&quot;  &quot;6&quot;  &quot;7&quot;  &quot;8&quot;  &quot;9&quot;  &quot;10&quot;</code></pre>
 <div class="sourceCode" id="cb140"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb140-1"><a href="#cb140-1"></a><span class="kw">head</span>(misDatos)   <span class="co"># ver las primeras 6 filas </span></span></code></pre></div>
 <pre><code>##   Edad Distancia_del_trabajo     Ciudad
-## 1   10              94.11206    Fajardo
-## 2    9              98.00676   Carolina
-## 3    8             110.03171   Luquillo
-## 4    7              96.10824     Gurabo
-## 5    6             114.63301 Rio_Grande
-## 6    5             105.73005      Ceiba</code></pre>
+## 1   10             114.15848    Fajardo
+## 2    9             101.73099   Carolina
+## 3    8              88.35317   Luquillo
+## 4    7             105.99355     Gurabo
+## 5    6              93.17781 Rio_Grande
+## 6    5             107.74723      Ceiba</code></pre>
 <div class="sourceCode" id="cb142"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb142-1"><a href="#cb142-1"></a><span class="kw">tail</span>(misDatos)   <span class="co"># ver las ultimas 6 filas</span></span></code></pre></div>
 <pre><code>##    Edad Distancia_del_trabajo         Ciudad
-## 5     6             114.63301     Rio_Grande
-## 6     5             105.73005          Ceiba
-## 7     4              88.70858    Las_Piedras
-## 8     3             107.51571         Caguas
-## 9     2              99.35704        Maunabo
-## 10    1             104.78974 Sturgeon_Falls</code></pre>
+## 5     6              93.17781     Rio_Grande
+## 6     5             107.74723          Ceiba
+## 7     4             100.84100    Las_Piedras
+## 8     3             117.07007         Caguas
+## 9     2             102.75412        Maunabo
+## 10    1             108.23826 Sturgeon_Falls</code></pre>
 <div class="sourceCode" id="cb144"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb144-1"><a href="#cb144-1"></a><span class="kw">head</span>(misDatos, <span class="dt">n=</span><span class="dv">8</span>)   <span class="co"># ver las primeras 8 filas</span></span></code></pre></div>
 <pre><code>##   Edad Distancia_del_trabajo      Ciudad
-## 1   10              94.11206     Fajardo
-## 2    9              98.00676    Carolina
-## 3    8             110.03171    Luquillo
-## 4    7              96.10824      Gurabo
-## 5    6             114.63301  Rio_Grande
-## 6    5             105.73005       Ceiba
-## 7    4              88.70858 Las_Piedras
-## 8    3             107.51571      Caguas</code></pre>
+## 1   10             114.15848     Fajardo
+## 2    9             101.73099    Carolina
+## 3    8              88.35317    Luquillo
+## 4    7             105.99355      Gurabo
+## 5    6              93.17781  Rio_Grande
+## 6    5             107.74723       Ceiba
+## 7    4             100.84100 Las_Piedras
+## 8    3             117.07007      Caguas</code></pre>
 <div class="sourceCode" id="cb146"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb146-1"><a href="#cb146-1"></a><span class="kw">class</span>(misDatos) <span class="co"># saber cual tipo de organización de datos </span></span></code></pre></div>
 <pre><code>## [1] &quot;data.frame&quot;</code></pre>
 </div>
